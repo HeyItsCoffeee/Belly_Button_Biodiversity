@@ -1,0 +1,66 @@
+/* Small devices (portrait phones) */
+@media only screen and (max-width: 600px) {
+  /* Adjust font sizes and margins for smaller screens */
+  body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 16px 8px;
+  }
+  p {
+    font-size: 16px;
+    margin: 8px;
+  }
+  /* Adjust chart sizes for smaller screens */
+  .chart {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 600px) {
+  /* Use default font sizes and margins */
+  body {
+    margin: 8px;
+    padding: 0;
+  }
+  h1 {
+    font-size: 36px;
+    margin: 16px 8px;
+  }
+  p {
+    font-size: 18px;
+    margin: 8px;
+  }
+  /* Adjust chart sizes for medium screens */
+  .chart {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
+  /* Use default font sizes and margins */
+  body {
+    margin: 16px;
+    padding: 0;
+  }
+  h1 {
+    font-size: 48px;
+    margin: 32px 16px;
+  }
+  p {
+    font-size: 20px;
+    margin: 16px;
+  }
+  /* Adjust chart sizes for larger screens */
+  .chart {
+    width: 800px;
+    height: 500px;
+  }
+}
